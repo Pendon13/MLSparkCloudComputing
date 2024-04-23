@@ -5,25 +5,32 @@ This is a Wine Quality Prediction project using an AWS EMR Cluster with 1 core a
 ## Making the AWS EMR Cluster
 
 On the AWS Console, navigate to **EMR**.
+
 ![Click EMR](/images/EMR.png)
 
 Click **Create Cluster**
+
 ![Click EMR](./images/CreateEMR.png)
 
 Name your cluster and click **Spark Interactive Application Bundle**
+
 ![Name EMR](./images/NameEMR.png)
 
 Leave Cluster Configuration Default
 Under **Cluster scaling and provisioning**, change Task-1 Instance(s) size to 4
+
 ![Size EMR](./images/SizeEMR.png)
 
 Under **Cluster termination and node replacement**, change Termination option to Manually terminate cluster
+
 ![Terminate EMR](./images/TerminateEMR.png)
 
 Under Security configuration and EC2 key pair, Create a key pair and use that one to access the EMR Cluster Core
+
 ![Security EMR](./images/SecurityEMR.png)
 
 Under Identiy and Access Management (IAM) roles, change **Service** role to *EMR_DefaultRole*, **Instance** profile to *EMR_EC2_DefaultRole*, and **Custom Automatic Scaling Role** to *EMR_AutoScaling_DefaultRole*
+
 ![IAM EMR](./images/IAMEMR.png)
 
 Hit Create Cluster.
