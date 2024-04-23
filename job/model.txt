@@ -1,0 +1,4 @@
+Test Error = 0.373711Accuracy = 0.626289F1 score = 0.605475Test Error = 0.421622Accuracy = 0.578378F1 score = 0.540855
+Test Error = 0.407008
+Accuracy = 0.592992
+F1 score = 0.562842
