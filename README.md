@@ -6,7 +6,7 @@ This is a Wine Quality Prediction project using an AWS EMR Cluster with 1 core a
 
 On the AWS Console, navigate to **EMR**.
 ```
-![Click EMR](./images/EMR.png "Title")
+![Click EMR](/images/EMR.png "Title")
 ```
 Click **Create Cluster**
 ```
