@@ -42,6 +42,8 @@ Navigate to the first EC2 instance created after the cluster is created.
 Click the group under Security groups. Click Edit inbound rules.
 Add rule: SSH MyIP
 
+Connect to the EC2 Instance using the key generated.
+
 ## Training the Model
 
 After accessing the EMR Core EC2 Instance (user ec2-user), copy and paste the code in this github to the EC2 Instance File system.
