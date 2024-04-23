@@ -5,9 +5,15 @@ This is a Wine Quality Prediction project using an AWS EMR Cluster with 1 core a
 ## Making the AWS EMR Cluster
 
 On the AWS Console, navigate to **EMR**.
+<<<<<<< HEAD
 
 ![Click EMR](/images/EMR.png)
 
+=======
+```
+![Click EMR](/images/EMR.png "Title")
+```
+>>>>>>> 3e2a956e9272c162eba84342bd7c166e7b5bd5b6
 Click **Create Cluster**
 ![Click EMR](./images/CreateEMR.png)
 Name your cluster and click **Spark Interactive Application Bundle**
